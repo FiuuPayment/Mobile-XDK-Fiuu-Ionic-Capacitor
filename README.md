@@ -14,6 +14,8 @@ This is a working Ionic Capacitor payment sample application that can be a guide
 
 ## How does it work ? 
 
+<img src="https://github.com/FiuuPayment/Mobile-XDK-Ionic_Capacitor/assets/89504625/ac496bd7-9ff5-4c7e-8a66-66aa670936e5">
+
  1. User chooses the Payment option/Bank they wish to pay with 
  2. Press "Proceed".
  3. input your bank credentials until finish payment. 
@@ -23,7 +25,7 @@ This is a working Ionic Capacitor payment sample application that can be a guide
 
 you must be a registered Fiuu Merchant to receive your own credentials for you to use or test this module.
 
-To do so you can contact us here : sales@fiuu.com
+To do so you can contact us here : sales-sa@fiuu.com
 
 ## Getting Started
 
@@ -58,7 +60,7 @@ For the module to work, below are the minimum requirements needed :
 
 Below is the installation guide to implement Razer XDK into your project. 
 
-[Click me to install now !](https://www.npmjs.com/package/fiuuxdk-capacitor-plugin)
+[Click me to install now !](https://github.com/FiuuPayment/Mobile-XDK-Ionic_Capacitor/wiki/Installation-Guide)
 
 
 ## Resources
@@ -73,12 +75,12 @@ Below is the installation guide to implement Razer XDK into your project.
 
 ## Support
 
-Submit issue to this repository or email to our support@fiuu.com
+Submit issue to this repository or email to our support-sa@fiuu.com
 
-Merchant Technical Support / Customer Care : support@fiuu.com<br>
-Sales/Reseller Enquiry : sales@fiuu.com<br>
-Marketing Campaign : marketing@fiuu.com<br>
-Channel/Partner Enquiry : channel@fiuu.com<br>
-Media Contact : media@fiuu.com<br>
-R&D and Tech-related Suggestion : technical@fiuu.com<br>
-Abuse Reporting : abuse@fiuu.com
+Merchant Technical Support / Customer Care : support-sa@fiuu.com<br>
+Sales/Reseller Enquiry : sales-sa@fiuu.com<br>
+Marketing Campaign : marketing-sa@fiuu.com<br>
+Channel/Partner Enquiry : channel-sa@fiuu.com<br>
+Media Contact : media-sa@fiuu.com<br>
+R&D and Tech-related Suggestion : technical-sa@fiuu.com<br>
+Abuse Reporting : abuse-sa@fiuu.com

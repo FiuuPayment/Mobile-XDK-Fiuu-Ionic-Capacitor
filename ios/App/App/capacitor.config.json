@@ -12,5 +12,14 @@
 				"swiftEnabled": true
 			}
 		}
-	}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"DevicePlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin",
+		"FiuuPaymentPlugin",
+		"CDVPlugin"
+	]
 }

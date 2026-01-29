@@ -44,20 +44,20 @@ export class HomePage implements OnInit {
     }
 
     let paymentDetails = {
-      mp_username: "RMSxdk_2022",
-      mp_password: "RMSpwd@2022",
-      mp_merchant_ID: "rmsxdk_mobile_Dev",
-      mp_app_name: "mobile",
-      mp_verification_key: 'ee738b541eff7b6b495e44771f71c0ec',
+      mp_username: "",
+      mp_password: "",
+      mp_merchant_ID: "",
+      mp_app_name: "",
+      mp_verification_key: '',
       mp_amount: "1.10",
-      mp_order_ID: "1523765091",
+      mp_order_ID: "",
       mp_currency: "MYR",
       mp_country: "MY",
       mp_channel: "multi",
       mp_bill_description: "description",
       mp_bill_name: "John Doe",
       mp_bill_email: "johndoe@example.com",
-      mp_bill_mobile: "105567754",
+      mp_bill_mobile: "",
     };
 
     try {

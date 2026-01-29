@@ -1,0 +1,71 @@
+PODS:
+  - Capacitor (7.4.5):
+    - CapacitorCordova
+  - CapacitorApp (7.1.1):
+    - Capacitor
+  - CapacitorCordova (7.4.5)
+  - CapacitorDevice (7.0.3):
+    - Capacitor
+  - CapacitorHaptics (7.0.3):
+    - Capacitor
+  - CapacitorKeyboard (7.0.4):
+    - Capacitor
+  - CapacitorStatusBar (7.0.4):
+    - Capacitor
+  - CordovaPlugins (7.4.5):
+    - CapacitorCordova
+  - fiuu-mobile-xdk-cocoapods (3.34.7)
+  - FiuuxdkCapacitorPlugin (1.0.4):
+    - Capacitor
+    - fiuu-mobile-xdk-cocoapods (= 3.34.7)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - FiuuxdkCapacitorPlugin (from `../../node_modules/fiuuxdk-capacitor-plugin`)
+
+SPEC REPOS:
+  trunk:
+    - fiuu-mobile-xdk-cocoapods
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  FiuuxdkCapacitorPlugin:
+    :path: "../../node_modules/fiuuxdk-capacitor-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: a5bf59e09f9dd82694fdcca4d107b4d215ac470f
+  CapacitorApp: 3ddbd30ac18c321531c3da5e707b60873d89dd60
+  CapacitorCordova: 31bbe4466000c6b86d9b7f1181ee286cff0205aa
+  CapacitorDevice: acceaa3502f9a5edd446c96a451eb200d1ac6c03
+  CapacitorHaptics: d17da7dd984cae34111b3f097ccd3e21f9feec62
+  CapacitorKeyboard: 45cae3956a6f4fb1753f9a4df3e884aeaed8fe82
+  CapacitorStatusBar: 4bf126c3c01dbaca8a4e416a29c4899cf91d0626
+  CordovaPlugins: c06d795d5c4df9cde225fbd031ca509c19cf1a85
+  fiuu-mobile-xdk-cocoapods: c6eb91dfca51f10a692baf61dec40f5f715c46f5
+  FiuuxdkCapacitorPlugin: 90115935539067664fa1ddb646f1f90ebb7de75e
+
+PODFILE CHECKSUM: 02d11b299615c60fc920b9dac0f0104da077b724
+
+COCOAPODS: 1.16.2

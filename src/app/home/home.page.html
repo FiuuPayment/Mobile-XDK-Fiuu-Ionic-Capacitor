@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Fiuu Payment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="app">
+    <h2>Welcome to Ionic Payment</h2>
+    <p>To start a payment, click the button below.</p>
+    <p><strong>Payment Status:</strong> {{ paymentStatus }}</p>
+
+    <!-- <ion-button expand="full" color="success" (click)="startFiuuPayment()">
+      Start MolPay Payment
+    </ion-button>
+
+    <ion-button expand="full" color="black" (click)="startGooglePayPayment()">
+      <img
+        src="https://www.gstatic.com/instantbuy/svg/dark_gpay.svg"
+        alt="Google Pay"
+        style="height: 24px; vertical-align: middle; margin-right: 8px;"
+      />
+      Pay with Google Pay
+    </ion-button> -->
+
+    <ion-button expand="full" color="success" (click)="startFiuuPayment()" >
+      Start Fiuu Payment
+    </ion-button>
+
+    <ion-button *ngIf="isAndroid" expand="full" color="black" (click)="startGooglePayPayment()">
+      <img
+        src="https://www.gstatic.com/instantbuy/svg/light_gpay.svg"
+        alt="Google Pay"
+        style="height: 24px; vertical-align: middle; margin-right: 8px;"
+      />
+      Pay with Google Pay
+    </ion-button>
+    
+<!-- 
+    <ion-button expand="full" color="danger" (click)="closeMolpay()">
+      Close MolPay
+    </ion-button> -->
+
+    <!-- MOLPay Payment Container -->
+    <div id="molpay" class="molpay-container"></div>
+  </div>
+</ion-content>

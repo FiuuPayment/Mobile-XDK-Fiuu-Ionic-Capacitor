@@ -66,10 +66,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-/ios/DerivedData/
-/android/capacitor-cordova-android-plugins/src/main/java/.gitkeep
-/android/capacitor-cordova-android-plugins/src/main/res/.gitkeep
-/ios/capacitor-cordova-ios-plugins/resources/.gitkeep
-/ios/capacitor-cordova-ios-plugins/sources/.gitkeep
-/ios/App/App/public/3rdpartylicenses.txt
-/ios/App/App/public/
+package-lock.json

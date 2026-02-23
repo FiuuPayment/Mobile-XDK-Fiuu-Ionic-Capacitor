@@ -44,11 +44,11 @@ export class HomePage implements OnInit {
     }
 
     let paymentDetails = {
-      mp_username: "",
-      mp_password: "",
-      mp_merchant_ID: "",
-      mp_app_name: "",
-      mp_verification_key: '',
+      mp_username: " ",
+      mp_password: " ",
+      mp_merchant_ID: " ",
+      mp_app_name: " ",
+      mp_verification_key: " ",
       mp_amount: "1.10",
       mp_order_ID: "",
       mp_currency: "MYR",

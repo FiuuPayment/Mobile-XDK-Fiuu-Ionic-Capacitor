@@ -35,7 +35,6 @@
     "@ionic/angular": "^7.5.0",
     "cordova-plugin-inappbrowser": "^6.0.0",
     "fiuuxdk-capacitor-plugin": "^1.0.5",
-    "ionic": "^4.1.2",
     "ionicons": "^7.2.1",
     "node": "^21.6.1",
     "rxjs": "~7.8.0",

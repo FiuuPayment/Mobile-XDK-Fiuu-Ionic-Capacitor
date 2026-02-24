@@ -13,12 +13,11 @@ import {
 } from '@ionic/angular/standalone';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
-  standalone: true,
-  imports: [CommonModule, NgIf, IonHeader, IonToolbar, IonTitle, IonContent, IonButton],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    selector: 'app-home',
+    templateUrl: 'home.page.html',
+    styleUrls: ['home.page.scss'],
+    imports: [CommonModule, NgIf, IonHeader, IonToolbar, IonTitle, IonContent, IonButton],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomePage implements OnInit {
   isAndroid: boolean = false;
